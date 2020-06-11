@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RPSGame</title>
+</head>
+<body>
+    <div class="overflow" id="overflow">
+        <div class="registro">
+            <h2>The RPS Game!</h2>
+            <form action="#">
+                <label for="">Your Nick name</label>
+                <input class="ingreso" id='name' type="text" required>
+               <input class="play"  id="play"  type="submit" value="Play!">
+            </form>
+        </div>
+    </div>
+    <nav>
+        <div class="points points1"><h3>0</h3></div>
+        <h1 class="title">Rock Paper Scissors GAME</h1>
+        <div class="points points2"><h3>0</h3></div>
+    </nav>
+    <section class="gamezone">
+        <div class="zone zone1" id="zoneName">Gamer</div>
+        <div class="vs"><p>VS</p></div>
+        <div class="zone zone2">Cloud</div>
+    </section>
+    <section class="zonecontrols">
+        <div class="container container1">
+            <div class="controls">
+                <div class="control scissors"><i class="fas fa-hand-scissors"></i></div>
+                <div class="control paper"><i class="fas fa-hand-paper"></i></div>
+                <div class="control rock"><i class="fas fa-hand-rock"></i></div>
+                <div class="control random"><i class="fas fa-hand-middle-finger"></i></div>
+            </div>
+        </div>
+        
+    </section>
+    <footer>
+        <script src="scripts/controls.js"></script>
+    </footer>
+</body>
+</html>
